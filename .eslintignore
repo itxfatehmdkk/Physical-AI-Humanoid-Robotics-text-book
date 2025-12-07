@@ -1,0 +1,11 @@
+# ESLint Ignore
+
+node_modules/
+build/
+dist/
+coverage/
+.docusaurus/
+.cache/
+*.js.map
+*.css
+*.md

@@ -1,0 +1,14 @@
+# Prettier Ignore
+
+node_modules/
+build/
+dist/
+coverage/
+.docusaurus/
+.cache/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+*.js.map
+*.css
+*.md
