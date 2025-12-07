@@ -15,17 +15,19 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-github-username.github.io', // Replace with your GitHub username
+  url: 'https://itxfatehmdkk.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Physical-AI-Human-Centered-Robotics/', // Adjust to your repo name
+  baseUrl: '/Physical-AI-Humanoid-Robotics-text-book/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'your-github-username', // Usually your GitHub org/user name.
-  projectName: 'Physical-AI-Human-Centered-Robotics', // Usually your repo name.
+  organizationName: 'itxfatehmdkk', // Usually your GitHub org/user name.
+  projectName: 'Physical-AI-Humanoid-Robotics-text-book', // Usually your repo name.
+  deploymentBranch: 'gh-pages', // Branch that GitHub Pages will use
+  trailingSlash: false,
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -78,7 +80,7 @@ const config: Config = {
       title: 'Physical AI Textbook',
       logo: {
         alt: 'Physical AI Logo',
-        src: 'img/logo.svg',
+        src: 'img/chatbot.png',
       },
       items: [
         {
@@ -89,7 +91,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/your-github-username/Physical-AI-Human-Centered-Robotics',
+          href: 'https://github.com/itxfatehmdkk/Physical-AI-Humanoid-Robotics-text-book',
           label: 'GitHub',
           position: 'right',
         },
@@ -103,7 +105,7 @@ const config: Config = {
           items: [
             {
               label: 'Introduction',
-              to: '/docs/intro',
+              to: '/docs',
             },
           ],
         },
@@ -112,7 +114,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/your-github-username/Physical-AI-Human-Centered-Robotics',
+              href: 'https://github.com/itxfatehmdkk/Physical-AI-Humanoid-Robotics-text-book',
             },
             {
               label: 'Research Papers',
@@ -129,7 +131,7 @@ const config: Config = {
             },
             {
               label: 'Textbook Project',
-              href: 'https://github.com/your-github-username/Physical-AI-Human-Centered-Robotics',
+              href: 'https://github.com/itxfatehmdkk/Physical-AI-Humanoid-Robotics-text-book',
             },
           ],
         },

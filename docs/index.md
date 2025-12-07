@@ -28,7 +28,7 @@ Gazebo physics environment, SDF/URDF robot modeling, simulated sensors, Unity fo
 ### [Chapter 5: NVIDIA Isaac Platform](./chapter5-nvidia-isaac)
 Isaac Sim, Isaac SDK & accelerated ROS, VSLAM and navigation, RL-based training, and sim-to-real techniques.
 
-### [Chapter 6: Vision-Language-Action (VLA)]./chapter6-vla)
+### [Chapter 6: Vision-Language-Action (VLA)](./chapter6-vla)
 LLM-based planning, OpenAI Whisper speech-to-action, converting natural language → ROS 2 action pipeline, and bipedal locomotion & manipulation planning.
 
 ### [Chapter 7: Capstone: Build an Autonomous Humanoid](./chapter7-capstone)
