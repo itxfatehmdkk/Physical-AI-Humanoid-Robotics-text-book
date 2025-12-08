@@ -97,3 +97,5 @@ For readers interested in exploring these concepts at a deeper level:
 - [Habitat-Sim](https://aihabitat.org/) - 3D simulation platform for embodied AI research
 
 Embark on this journey to understand how Physical AI transforms digital intelligence into embodied action. Let's explore the fascinating world where artificial intelligence meets physical reality.
+
+_Last updated with enhanced resources: December 2025_
