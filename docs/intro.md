@@ -26,3 +26,5 @@ This textbook explores these concepts in depth, examining:
 This interactive textbook features an integrated RAG (Retrieval-Augmented Generation) chatbot that can answer questions about the content. Simply select text on any page and ask the chatbot about it, or pose general questions about Physical AI and humanoid robotics.
 
 Begin your journey by exploring the chapters in the navigation menu.
+
+*Updated with enhanced resources on Physical AI and Robotics - December 2025*
