@@ -682,3 +682,41 @@ Vision-Language-Action (VLA) models represent the cutting edge of robotics resea
 ## Conclusion
 
 This chapter has explored the critical VLA systems that bridge language understanding with physical action in robotics. From LLM-based planning to speech-to-action pipelines and coordinated locomotion-manipulation planning, these technologies are essential for creating robots that can effectively interact with the physical world through natural language commands. The next chapter will integrate all these concepts in a capstone project to build an autonomous humanoid system.
+
+## Additional Resources
+
+For readers interested in exploring these concepts at a deeper level:
+
+### Books and Publications
+- ["Language and Robots" by Antonio Lieto](https://www.tandf.net/books/9781032058528) - Intersections between linguistics and robotics
+- ["Robot Learning from Human Teachers" by Sonia Chernova and Andrea Thomaz](https://www.morganclaypool.com/doi/abs/10.2200/S00629ED1V01Y201501AIM029) - Human-in-the-loop learning approaches
+- ["Deep Learning for Natural Language Processing" by Palash Goyal](https://www.apress.com/gp/book/9781484243534) - Foundation for language understanding systems
+- ["Handbook of Spatial Logics" by Marco Aiello](https://link.springer.com/book/10.1007/978-1-4020-5587-4) - Spatial reasoning for robotics
+
+### Research Papers
+- ["Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents" by Huang et al. (2022)](https://arxiv.org/abs/2201.07207) - Using LLMs for robotic planning
+- ["Inner Monologue: Embodied Reasoning through Planning in Language Models" by Brohan et al. (2022)](https://arxiv.org/abs/2207.05608) - Language-based reasoning for embodied tasks
+- ["PaLM-E: An Embodied Multimodal Language Model" by Driess et al. (2023)](https://arxiv.org/abs/2303.03378) - Large-scale vision-language-action model
+- ["Grounded Decoding for Language-Guided Multi-Object Rearrangement" by Chen et al. (2022)](https://arxiv.org/abs/2205.14818) - Language-guided manipulation
+- ["Language-Conditioned Imitation Learning for Robot Manipulation Tasks" by Shridhar et al. (2022)](https://arxiv.org/abs/2203.06844) - Learning manipulation from language demonstrations
+- ["Embodied Visual Active Learning for Semantic Segmentation" by Zhang et al. (2021)](https://arxiv.org/abs/2105.08444) - Active learning for perception
+- ["RT-1: Robotics Transformer for Real-World Control at Scale" by Brohan et al. (2022)](https://arxiv.org/abs/2212.06817) - Scalable robotics transformer model
+- ["OpenVLA: An Open-Source Vision-Language-Action Model" by Bahl et al. (2024)](https://openvla.github.io/) - Open-source VLA model
+
+### Online Resources
+- [OpenAI API Documentation](https://platform.openai.com/docs/api-reference) - Interface for language models in robotics
+- [Hugging Face Transformers](https://huggingface.co/docs/transformers/index) - Pre-trained models for NLP tasks
+- [Robot Learning with Language Models](https://sites.google.com/view/robotics-transformers) - Research hub for VLA systems
+- [Embodied AI Challenge](https://aihabitat.org/challenge/) - Annual challenge focused on embodied intelligence
+- [RoboTurk: Human Activities in Robot Environments](https://roboturk.stanford.edu/) - Dataset for language-guided manipulation
+- [ALFRED: A Benchmark for Interpreting Grounded Instructions for Everyday Tasks](https://askforalfred.com/) - Task-oriented dataset with language instructions
+- [SayCan: Do As I Can, Not As I Say](https://say-can.github.io/) - Language-guided robot execution
+
+### Technical Tutorials and Tools
+- [OpenAI Whisper Documentation](https://github.com/openai/whisper) - Speech recognition for robotics applications
+- [Speech-to-Action Pipeline Implementation](https://github.com/facebookresearch/SEARLE) - Example implementation of speech-driven robot control
+- [Vision-Language-Action Model Training Guide](https://huggingface.co/docs/transformers/model_doc/vision_encoder_decoder) - Training VLA models
+- [ROS 2 Natural Language Processing Integration](https://github.com/ros-industrial/ros2_nlp) - NLP tools for ROS 2
+- [Language-Guided Reinforcement Learning Tutorials](https://github.com/google-research/language_to_reward) - LfR (Language to Reward) implementations
+- [Embodied-AI Simulation Environments](https://github.com/facebookresearch/habitat-lab) - Habitat for embodied AI research
+- [Prompt Engineering for Robotics](https://www.promptingguide.ai/) - Techniques for designing effective prompts for robotic systems

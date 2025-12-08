@@ -28,3 +28,382 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Enhanced responsive design improvements */
+/* Mobile devices (up to 768px) */
+@media (max-width: 768px) {
+  /* Adjust sidebar for mobile */
+  .sidebar {
+    position: fixed;
+    left: -100%;
+    top: 60px;
+    z-index: 100;
+    transition: left 0.3s ease-in-out;
+    width: 80%;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  }
+
+  .sidebar.show {
+    left: 0;
+  }
+
+  /* Adjust main content area for mobile */
+  .docPage,
+  .docMainContainer {
+    flex-basis: 100%;
+  }
+
+  /* Ensure content is readable on small screens */
+  .markdown {
+    font-size: 0.95em;
+  }
+
+  /* Adjust navbar elements */
+  .navbar__items {
+    flex-wrap: wrap;
+  }
+
+  /* Adjust sidebar toggle */
+  .navbar-sidebar__brand {
+    min-height: 56px;
+  }
+
+  /* Ensure proper spacing on small screens */
+  .container {
+    padding: 0 1rem;
+  }
+
+  /* Hero banner adjustments */
+  .heroBanner {
+    padding: 1.5rem 1rem;
+  }
+
+  /* Homepage features */
+  .features {
+    padding: 1rem 0;
+  }
+
+  .featureSvg {
+    height: 150px;
+    width: 150px;
+  }
+
+  /* Navigation bar */
+  .navbar {
+    padding: 0.5rem 0;
+  }
+
+  /* Buttons */
+  .button {
+    margin: 0.25rem;
+    padding: 0.5rem 1rem;
+  }
+}
+
+/* Small tablets (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .docItemContainer {
+    max-width: 100%;
+  }
+
+  .heroBanner {
+    padding: 2rem 1.5rem;
+  }
+
+  .featureSvg {
+    height: 175px;
+    width: 175px;
+  }
+}
+
+/* Large tablets and small laptops (1025px to 1200px) */
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .docItemContainer {
+    max-width: 800px;
+  }
+}
+
+/* Extra small devices (up to 480px) */
+@media (max-width: 480px) {
+  .hero__title {
+    font-size: 1.8rem;
+    line-height: 1.2;
+  }
+
+  .hero__subtitle {
+    font-size: 1rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .button {
+    width: 100%;
+    margin: 0.25rem 0;
+  }
+
+  .container {
+    padding: 0 0.5rem;
+  }
+
+  .featureSvg {
+    height: 120px;
+    width: 120px;
+  }
+}
+
+/* Large screens (1200px+) */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1400px;
+  }
+}
+
+/* Ensure code blocks are responsive */
+pre,
+code {
+  word-wrap: break-word;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  max-width: 100%;
+}
+
+/* Mobile menu button */
+.navbar__toggle {
+  display: inherit;
+}
+
+/* Ensure images are responsive */
+article img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive table */
+table {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+  width: 100%;
+}
+
+/* Improve typography readability */
+.markdown h1 {
+  font-size: 2rem;
+}
+
+.markdown h2 {
+  font-size: 1.75rem;
+}
+
+.markdown h3 {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .markdown h1 {
+    font-size: 1.75rem;
+  }
+
+  .markdown h2 {
+    font-size: 1.5rem;
+  }
+
+  .markdown h3 {
+    font-size: 1.25rem;
+  }
+}
+
+/* Footer adjustments */
+.footer {
+  padding: 2rem 0;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 1.5rem 0;
+  }
+
+  .footer__links {
+    margin-bottom: 1rem;
+  }
+
+  .footer__col {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* Make navbar items wrap on smaller screens instead of showing menu icon */
+@media (max-width: 996px) {
+  .navbar__items {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .navbar__item {
+    margin: 0.25rem;
+  }
+}
+
+/* Hide the navbar menu icon */
+.navbar__toggle {
+  display: none !important;
+}
+
+/* Adjust navbar items to accommodate all items without menu */
+.navbar__items--right {
+  flex-wrap: wrap;
+  margin-left: auto;
+}
+
+/* Ensure navbar remains accessible on all screen sizes */
+@media (max-width: 996px) {
+  .navbar__brand {
+    max-width: 50%;
+    flex: 0 0 auto;
+  }
+
+  .navbar__title {
+    font-size: 0.9rem;
+  }
+
+  .navbar__items {
+    justify-content: flex-end;
+  }
+
+  .navbar-sidebar__close {
+    display: none;
+  }
+}
+
+/* Hide sidebar menu when toggle is hidden */
+.navbar-sidebar {
+  display: none;
+}
+
+/* Ensure proper scrolling for chapter content */
+.docItemWrapper {
+  overflow-y: auto;
+  padding: 1rem;
+}
+
+/* Make sure scrolling works properly within the content area */
+@media (min-width: 997px) {
+  .docItemWrapper {
+    max-height: calc(100vh - var(--ifm-navbar-height));
+    overflow-y: auto;
+  }
+}
+
+/* Improve readability for long-form content */
+.markdown {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.markdown h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.markdown h2 {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  margin-bottom: 1.2rem;
+}
+
+.markdown h3 {
+  font-size: 1.5rem;
+  margin-top: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+/* Ensure tables are scrollable if they're too wide */
+table {
+  display: block;
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+/* Add better scrolling experience for code blocks */
+pre {
+  overflow-x: auto;
+  max-width: 100%;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* Improve scrolling behavior for mobile */
+@media (max-width: 996px) {
+  .docItemWrapper {
+    padding: 0.5rem;
+  }
+
+  .markdown {
+    font-size: 1rem;
+  }
+}
+
+/* Add scroll margin for anchor links */
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+  scroll-margin-top: 4rem;
+}
+
+/* Make sure the main content area scrolls properly */
+.docMainContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ensure the main wrapper allows scrolling */
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - var(--ifm-navbar-height));
+}
+
+/* Ensure proper scrolling in all browsers */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Improve scrollbar appearance */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+/* Dark mode scrollbar */
+[data-theme='dark'] ::-webkit-scrollbar-track {
+  background: #333;
+}
+
+[data-theme='dark'] ::-webkit-scrollbar-thumb {
+  background: #555;
+}
+
+[data-theme='dark'] ::-webkit-scrollbar-thumb:hover {
+  background: #666;
+}

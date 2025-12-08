@@ -8,11 +8,16 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
+    min-height: 85vh;
   }
 }
 
@@ -20,4 +25,89 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 2rem;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.animatedTitle {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  animation: fadeInDown 1s ease-out;
+}
+
+.animatedTitle:hover {
+  animation: pulse 2s infinite;
+}
+
+.titleBackground {
+  background-color: rgba(46, 133, 85, 0.2);
+  padding: 0.5rem 1.5rem;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+[data-theme='dark'] .titleBackground {
+  background-color: rgba(37, 194, 160, 0.2);
+}
+
+.titleBackground:hover {
+  background-color: rgba(46, 133, 85, 0.3);
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] .titleBackground:hover {
+  background-color: rgba(37, 194, 160, 0.3);
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Additional styles for better responsiveness */
+@media screen and (max-width: 768px) {
+  .animatedTitle {
+    font-size: 2.5rem;
+  }
+
+  .titleBackground {
+    padding: 0.4rem 1.2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .animatedTitle {
+    font-size: 2rem;
+  }
+
+  .titleBackground {
+    padding: 0.3rem 1rem;
+  }
 }

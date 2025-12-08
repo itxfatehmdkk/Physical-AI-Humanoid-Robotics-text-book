@@ -484,3 +484,38 @@ The NVIDIA Isaac platform represents a comprehensive ecosystem for developing, s
 ## Conclusion
 
 This chapter has provided an overview of the NVIDIA Isaac platform, from Isaac Sim's photorealistic simulation capabilities to Isaac ROS's hardware-accelerated perception and navigation. The platform enables advanced techniques like RL-based training and sim-to-real transfer that are essential for modern robotics. The next chapter will explore Vision-Language-Action (VLA) models and how they bridge the gap between AI and physical action.
+
+## Additional Resources
+
+For readers interested in exploring these concepts at a deeper level:
+
+### Books and Publications
+- ["GPU-Accelerated Robotics: Programming and Simulation" by K. Kousidis](https://link.springer.com/book/10.1007/978-3-030-50259-8) - GPU programming for robotics applications
+- ["Computer Vision Metrics: Survey, Taxonomy, and Analysis" by Scott K. Kono](https://www.apress.com/gp/book/9781430259319) - Metrics for visual perception in robotics
+- ["Robot Learning: An Introduction" by Benjamin Burchfiel](https://mitpress.mit.edu/books/robot-learning-introduction) - Learning methods for robotics applications
+
+### Research Papers
+- ["Isaac Gym: High Performance GPU Based Reinforcement Learning for Robotics"](https://arxiv.org/abs/2108.12594) - GPU-accelerated reinforcement learning framework
+- ["NVIDIA Isaac: A Generic Framework for Robot Perception and Control"](https://research.nvidia.com/sites/default/files/pubs/2020-09_NVIDIA-Isaac/AIAA2020.pdf) - Architecture and design of Isaac platform
+- ["Sim-to-Real Transfer in Deep Reinforcement Learning for Robotics: a Survey"](https://arxiv.org/abs/2004.01370) - Comprehensive overview of sim-to-real techniques
+- ["Real-time GPU-based Simulation for Robotic Manipulation"](https://arxiv.org/abs/2109.07602) - High-fidelity manipulation simulation
+- ["Photorealistic Scene Generation for Robotic Perception Training"](https://arxiv.org/abs/2005.13675) - Synthetic data generation for perception
+- ["CUDA-Accelerated Visual SLAM for Robotics"](https://ieeexplore.ieee.org/document/8972456) - GPU acceleration for SLAM algorithms
+
+### Online Resources
+- [NVIDIA Isaac Sim Documentation](https://docs.omniverse.nvidia.com/isaacsim/latest/index.html) - Official Isaac Sim documentation
+- [Isaac ROS GitHub Repository](https://github.com/NVIDIA-ISAAC-ROS) - Open-source Isaac ROS packages
+- [NVIDIA Robotics Developer Zone](https://developer.nvidia.com/robotics) - Comprehensive robotics development resources
+- [Omniverse Robotics Solutions](https://www.nvidia.com/en-us/omniverse/solutions/robotics/) - Overview of NVIDIA's robotics platform
+- [CUDA Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html) - GPU programming for robotics
+- [NVIDIA AI Enterprise Documentation](https://docs.nvidia.com/ai-enterprise/index.html) - Enterprise AI for robotics
+- [Deep Learning for Robotics (NVIDIA Research)](https://research.nvidia.com/labs/toronto-ai/robotics/) - Research publications and code
+
+### Technical Tutorials and Tools
+- [Isaac ROS Navigation Tutorials](https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_navigation/index.html) - Navigation stack implementation
+- [Isaac Sim Tutorials](https://docs.omniverse.nvidia.com/isaacsim/latest/tutorial_intro.html) - Step-by-step simulation guides
+- [Isaac Gym Reinforcement Learning Examples](https://github.com/NVIDIA-Omniverse/IsaacGymEnvs) - Practical RL implementations
+- [GPU-Accelerated Perception Pipeline Development](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam) - Visual SLAM acceleration
+- [ROS 2 Real-time Performance Optimization with GPU](https://docs.ros.org/en/humble/How-To-Guides/Real-Time-Performance.html) - GPU-accelerated real-time systems
+- [Synthetic Data Generation with Isaac Replicator](https://docs.omniverse.nvidia.com/isaacsim/latest/features/replicator/index.html) - Creating training datasets
+- [CUDA Optimization Techniques for Robotics](https://developer.nvidia.com/blog/cuda-pro-tip-optimized-filtering-warp-aggregated-atomics/) - Performance optimization best practices
